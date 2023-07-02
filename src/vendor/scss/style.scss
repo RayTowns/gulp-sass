@@ -1,0 +1,28 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    background-color: blueviolet !important;
+    border-color: darkorchid !important;
+    margin: 0.5rem;
+    
+    &:hover{
+        background-color: crimson !important;
+        border-color: cornsilk !important;
+    }
+}
+
+@import 'fale-conosco';
+
+@import 'footer';
+
+@import 'header';
+
+@import 'historia';
+
+@import 'owl-carousel';
+
+@import 'products';
+
+@import 'social-media';

@@ -1,0 +1,46 @@
+header{
+
+    img {
+        text-align: center;
+    }
+
+    .bg-light {
+        background-color: peachpuff !important;
+    }
+
+    nav{
+
+        button{
+            .navbar-toggler {
+                display: center !important;
+                width: 5.5 rem !important;
+                height: 5.5 rem !important;
+                size: 25px;
+            }
+
+            span {
+                color:blueviolet;
+                font-size: 9rem;
+            }
+        }
+
+        li{
+            color: darkgoldenrod;
+            font:100;
+            display: block !important;
+            text-decoration: none !important;
+            padding-left: 1rem;
+
+            .nav-link{
+                
+                &hover {
+                    width: fit-content;
+                    background-color: rgb(233, 210, 6);
+                    color: cornsilk;
+                    font-weight: 200;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,119 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+button {
+  background-color: blueviolet !important;
+  border-color: darkorchid !important;
+  margin: 0.5rem; }
+  button:hover {
+    background-color: crimson !important;
+    border-color: cornsilk !important; }
+
+#faleConosco .invalid {
+  border-color: red;
+  background-color: coral; }
+
+#faleConosco .text-muted {
+  display: none; }
+
+footer {
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  color: #f89035; }
+
+header img {
+  text-align: center; }
+
+header .bg-light {
+  background-color: peachpuff !important; }
+
+header nav button .navbar-toggler {
+  display: center !important;
+  width: 5.5 rem !important;
+  height: 5.5 rem !important;
+  size: 25px; }
+
+header nav button span {
+  color: blueviolet;
+  font-size: 9rem; }
+
+header nav li {
+  color: darkgoldenrod;
+  font: 100;
+  display: block !important;
+  text-decoration: none !important;
+  padding-left: 1rem; }
+  header nav li .nav-linkhover {
+    width: fit-content;
+    background-color: #e9d206;
+    color: cornsilk;
+    font-weight: 200; }
+
+#historia .modal-title {
+  color: #8d878d; }
+
+#historia .modal-body {
+  color: darkgoldenrod;
+  font: 100; }
+
+#carousel {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 2px; }
+
+.owl-carousel .owl-item img {
+  width: 100% !important;
+  height: 500px !important;
+  max-height: 200rem !important;
+  object-fit: cover;
+  max-width: initial;
+  padding: 1rem 0 0 0; }
+  .owl-carousel .owl-item img:hover {
+    opacity: 55%; }
+
+.owl-carousel .owl-item .item {
+  padding-top: 1rem; }
+  .owl-carousel .owl-item .item .h5 {
+    color: #834e83;
+    text-align: center; }
+
+#products {
+  padding: 1rem 0.5rem 0rem 0.5rem;
+  background-color: peachpuff;
+  max-height: fit-content;
+  padding-bottom: 5rem; }
+  #products .h1 {
+    padding-top: 1rem;
+    color: #844abb;
+    text-align: center;
+    padding-left: 2rem;
+    font: 400; }
+  #products .h5 {
+    color: #8d878d;
+    text-align: center; }
+  #products .bg-secondary {
+    background-color: darkgoldenrod !important; }
+
+#socialMedia {
+  display: flexbox;
+  margin: 1rem 0 2rem 1rem; }
+  #socialMedia p {
+    color: darkgoldenrod;
+    text-align: left; }
+  #socialMedia #SM-title {
+    text-align: right;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-left: solid 2px goldenrod; }
+    #socialMedia #SM-title .h2, #socialMedia #SM-title .h6 {
+      color: blueviolet; }
+  #socialMedia #SM-content {
+    border-radius: 10px;
+    margin: 1rem; }
+    #socialMedia #SM-content p {
+      margin-top: 1rem;
+      text-align: left; }
+    #socialMedia #SM-content a {
+      color: crimson;
+      text-decoration: none;
+      font-weight: bolder; }

@@ -1,0 +1,35 @@
+#carousel{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 2px;
+}
+
+.owl-carousel{
+
+    .owl-item{
+
+        img{
+            width: 100% !important;
+            height: 500px !important;
+            max-height: 200rem !important;
+            object-fit: cover;
+            max-width: initial;
+            padding: 1rem 0 0 0;
+    
+                &:hover{
+                    opacity: 55%;
+                }    
+
+        }
+
+        .item{
+            
+            padding-top: 1rem;
+    
+                .h5{
+                    color: rgb(131, 78, 131);
+                    text-align: center;
+                }                    
+        }
+    }
+}

@@ -1,0 +1,23 @@
+#products{
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    background-color: peachpuff;
+    max-height: fit-content;
+    padding-bottom: 5rem;
+
+    .h1{
+        padding-top: 1rem;
+        color: rgb(132, 74, 187);
+        text-align: center;
+        padding-left: 2rem;
+        font: 400;
+    }
+
+    .h5{
+        color: rgb(141, 135, 141);
+        text-align: center;
+    }
+
+    .bg-secondary{
+        background-color: darkgoldenrod !important;
+    }               
+}
